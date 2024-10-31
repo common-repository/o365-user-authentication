@@ -1,0 +1,295 @@
+.second-form-o365-menu-login table.form-table {
+    border-top: 1px solid #7f7f7f;
+    background: #fff;
+}
+form.second-form-o365-menu-login {
+    width: 80%;
+}
+form.second-form-o365-menu-login p.submit {
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 !important;
+    background-color: #e7e7e7;
+    border: solid 1px #7f7f7f;
+    border-top: 0px solid;
+}
+.TabbedPanelsContent .wrap {
+    margin: 0;
+}
+form.second-form-o365-menu-login input[type="radio"] {
+    height: 16px !important;
+}
+.o365_user_mapping ul li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+.o365_user_mapping .o365_user_mapping_head li{
+	text-align:center;
+}
+.o365_user_mapping ul {
+    margin: 0;
+    padding: 0;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr th, #TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr td, #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr td, #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr th {
+    border: none !important;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table, #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr th {
+    text-align: center;
+}
+span#o365_user_auth_mapping_add_field_button {
+    cursor: pointer;
+    font-size: 20px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr td:first-child {
+    width: 50%;
+}
+span#o365_user_auth_mapping_remove_field_button {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+	cursor:pointer;
+    font-family: arial;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr td{
+	padding:4px 5px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr td {
+    padding: 4px 10px;
+}
+#TabbedPanels1 .form-table #o365_user_auth_mapping_local_and_azure_fields tr td select{
+	width:100%;
+}
+.form-table table.o365_user_auth_mapping_table th {
+    line-height: 15px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr th{
+	line-height:13px;
+	text-align:center;
+}
+/*#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr.local_and_remote_groups_mapping_input_box{
+	background-color:inherit;
+}*/
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr .local_and_remote_groups_mapping_input_box_inner{
+	padding:0px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr .local_and_remote_groups_mapping_input_box_inner table {
+    width: 100%;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr:nth-child(2n), #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr:nth-child(2n) {
+    background-color: #bfbfbf;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tbody tr, #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr {
+    background-color: #e7e7e7;
+}
+#TabbedPanels1 .form-table td.main_td_o365_user_auth_mapping_local_and_azure_fields {
+    padding: 0px !important;
+}
+#TabbedPanels1 .form-table table#o365_user_auth_mapping_local_and_azure_fields {
+    width: 100%;
+/*	border-collapse: inherit;*/
+}
+#TabbedPanels1 .form-table tr.local_and_remote_groups_mapping td.local_and_remote_groups_mapping {
+    padding: 5px 0px;
+    vertical-align: top;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table table input {
+    width: 100%;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr .local_and_remote_groups_mapping_input_box_inner td:first-child, #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr th:first-child {
+    width: 95%;
+}
+@media screen and (max-width:767px)
+{
+form.second-form-o365-menu-login {
+    width: 100%;
+}
+.wp-admin input[type="file"] {
+    margin: 0 auto;
+    padding: 0;
+    width: 85%;
+}
+#TabbedPanels1 .form-table tr.local_and_remote_groups_mapping td.local_and_remote_groups_mapping {
+    padding: 0;
+  }	
+ #TabbedPanels1 .form-table tr.local_and_remote_groups_mapping td.local_and_remote_groups_mapping {
+    padding: 0;
+    vertical-align: middle;
+}
+.local_and_remote_groups_mapping {
+    background: #e7e7e7 none repeat scroll 0 0;
+}
+ 
+}
+@media screen and (max-width:1024px)
+{
+#TabbedPanels1 .form-table tr.local_and_remote_groups_mapping td.local_and_remote_groups_mapping {
+    padding: 0;
+    vertical-align: top;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tbody tr, #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr {
+    background-color:transparent;
+}
+}
+@media screen and (max-width:1023px){
+#TabbedPanels1 .form-table #o365_user_auth_mapping_local_and_azure_fields tr td select {
+    background: rgba(0, 0, 0, 0) url("/wp-content/plugins/o365-user-auth/img/dropdownarrow.png") no-repeat scroll right center / 20px auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+	background-color:#fff;
+}
+.wp-admin select {
+    height: 28px;
+    line-height: 28px;
+    padding: 2px 16px 2px 0 !important;
+}
+#TabbedPanels1 .form-table tr td select {
+background: rgba(0, 0, 0, 0) url("/wp-content/plugins/o365-user-auth/img/dropdownarrow.png") no-repeat scroll right center / 20px auto;
+background-color:#fff;
+}}
+@media screen and (min-width:320px) and (max-width:449px){
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr th {
+    font-size: 12px;
+ }
+ #TabbedPanels1 .form-table tr td label {
+    font-size: 12px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr:nth-child(2n), #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr:nth-child(2n) {
+    background-color: #bfbfbf;
+    height: 46px;
+}
+}
+@media screen and (min-width:449px) and (max-width:500px){
+ #TabbedPanels1 .form-table tr td label {
+    font-size: 14px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr:nth-child(2n), #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr:nth-child(2n) {
+    background-color: #bfbfbf;
+    height: 46px;
+}	
+}
+@media screen and (min-width:501px) and (max-width:698px){
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr td {
+    padding: 14.5px 10px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr:nth-child(2n), #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr:nth-child(2n) {
+    background-color: #bfbfbf;
+    height: 46px;
+}	
+#TabbedPanels1 .form-table table#o365_user_auth_mapping_local_and_azure_fields {
+    padding: 10px 0;
+    width: 100%;
+}
+}
+@media screen and (min-width:699px) and (max-width:767px){
+	#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr:nth-child(2n), #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr:nth-child(2n) {
+    background-color: #bfbfbf;
+    height: 46px;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr td {
+    padding: 4px 10px;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px){#TabbedPanels1 .form-table table#o365_user_auth_mapping_local_and_azure_fields {
+    padding: 14px 0;
+    width: 100%;
+}
+#TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr td {
+    padding: 14.5px 10px;
+}
+	#TabbedPanels1 .form-table table.o365_user_auth_mapping_table tr:nth-child(2n), #TabbedPanels1 .form-table table.o365_user_auth_mapping_redirect_url_table tr:nth-child(2n) {
+    background-color: #bfbfbf;
+    height: 46px;
+}
+}
+.form-table-short
+{
+	border-top:0 !important	
+}
+/* CSS for User Auth Mapping feature Start Here*/
+#head_main_tr_for_user_aurh_mapping
+{
+	background-color:#bfbfbf;
+}
+#user_auth_mapping_fields_add_field_button
+{
+	cursor: pointer;
+    font-size: 20px;
+}
+span#o365_user_auth_mapping_fields_remove_field_button{
+	cursor: pointer;
+    display: block;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+#user_auth_mapping_fields_local_and_azure_fields, #table_for_user_auth_mapping_fields_id {
+    width: 100%;
+}
+#user_auth_mapping_fields_local_and_azure_fields tr:nth-child(even) {
+    background-color: #bfbfbf !important;
+}
+#table_for_user_auth_mapping_fields_id tr.table_for_user_auth_mapping_fields_header_area {
+    background-color: #bfbfbf !important;
+}
+.table_for_user_auth_mapping_fields_header_area th {
+    border: medium none !important;
+	width: 45%  !important;
+}
+#user_auth_mapping_fields_local_and_azure_fields tr td:nth-child(1) {
+    width: 44% !important;;
+	border:none !important;
+}
+#user_auth_mapping_fields_local_and_azure_fields tr td:nth-child(2) {
+	    width: 53% !important;;
+		border:none !important;
+	}
+#user_auth_mapping_fields_local_and_azure_fields tr td, #TabbedPanels1 .form-table tr th, #TabbedPanels1 .form-table tr td{
+/*border-left: none !important;*/
+}
+.table_for_user_auth_mapping_fields_header_area th:nth-child(3) {
+    text-align: right;
+}
+#user_auth_mapping_fields_local_and_azure_fields td:nth-child(3)
+{
+	border:none !important;
+}
+.main_td_for_user_auth_mapping_fields_local_and_azure_fields, .main_tr_for_user_auth_mapping_td {
+    padding: 0 !important;
+}
+#TabbedPanels1 .form-table tr td select {
+    width: 100% !important;
+}
+#user_auth_mapping_fields_local_and_azure_fields td {
+    height: 13px;
+    line-height: 13px;
+    padding: 4px 5px !important;
+}
+#TabbedPanels1 .second-form-o365-menu-login tr.form-field input[type=checkbox] {
+    height: 16px;
+}
+.second-form-o365-menu-login tr.form-field label {
+    float: left;
+}
+/* CSS for User AUth Mapping Feature End Here*/
+.user_img_wrapper {
+    position: relative;
+    display: inline-block;
+}
+.user_img_wrapper span.corss {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: solid 1px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
